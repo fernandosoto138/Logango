@@ -1,0 +1,94 @@
+{
+    "Counters": [
+        {
+            "count": 0,
+            "name": "HijosLiquidados",
+            "regex": "mediante servicio 'Libretas_Hijos"
+        },
+        {
+            "count": 0,
+            "name": "subio_una",
+            "regex": "Subio una imagen"
+        },
+        {
+            "count": 0,
+            "name": "No validate",
+            "regex": "Imagen  invalida"
+        },
+        {
+            "count": 0,
+            "name": "Mal Formato",
+            "regex": "'valid_format': False,"
+        },
+        {
+            "count": 0,
+            "name": "exit 1",
+            "regex": "'exit': '001'"
+        },
+        {
+            "count": 0,
+            "name": "No normalizo",
+            "regex": "'exit': '002'"
+        },
+        {
+            "count": 0,
+            "name": "No Lectura QR",
+            "regex": "'exit': '003'"
+        },
+        {
+            "count": 0,
+            "name": "Otro error ML",
+            "regex": "'exit': '004'"
+        },
+        {
+            "count": 0,
+            "name": "Es Libreta",
+            "regex": "Response ML"
+        },
+        {
+            "count": 0,
+            "name": "entra al get",
+            "regex": "auh_get_libreta.py - Line: 21 "
+        },
+        {
+            "count": 0,
+            "name": "entra al save",
+            "regex": "auh_save_libreta.py - Line: 32 -"
+        },
+        {
+            "count": 0,
+            "name": "ML not success",
+            "regex": "ML not success"
+        },
+        {
+            "count": 0,
+            "name": "generando_pdf",
+            "regex": "Generando pdf"
+        },
+        {
+            "count": 0,
+            "name": "Error WS DJ",
+            "regex": "Error al llamar al WS DJ"
+        },
+        {
+            "count": 0,
+            "name": "mailEnvExito",
+            "regex": "Mail enviado con"
+        },
+        {
+            "count": 0,
+            "name": "GrabarDDJJ",
+            "regex": "Llamando GrabarDDJJ_AdultoResponsable"
+        },
+        {
+            "count": 0,
+            "name": "excepcionML",
+            "regex": "Excepcion en validate ML"
+        },
+        {
+            "count": 0,
+            "name": "error104",
+            "regex": "error(104, 'Connection reset by peer')"
+        }
+    ]
+}
