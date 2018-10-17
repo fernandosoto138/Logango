@@ -7,8 +7,8 @@ import (
 )
 
 type Counter struct {
-	Value       int
-	DisplayName string
+	Count       int
+	DisplayName string `json:"name"`
 	Regex       string
 }
 
