@@ -20,13 +20,13 @@ func main() {
 	if config == nil {
 		panic("Problems loading the config file " + args.config)
 	}
-	fmt.Printf("%v", config)
 	file, err := os.Open(args.log)
 	checkFile(err, args.log)
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 	scanner.Split(bufio.ScanLines)
 	for scanner.Scan() {
-		fmt.Println(scanner.Text())
+		analizeLine(scanner.Text(), config)
 	}
+	printResults(config)
 }
